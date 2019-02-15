@@ -1,0 +1,18 @@
+body{
+    background-color: deeppink;
+}
+
+h1 {
+  color: yellow;
+  text-align: center;
+  padding: 1em;
+  border-width: 3px;
+    border-style:inset;
+    border-color:green;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  color: blue;
+}
