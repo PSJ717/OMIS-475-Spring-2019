@@ -1,0 +1,25 @@
+h1 {
+        background-color: firebrick;
+        color: yellow;
+        text-align: center;
+        border-width: 3px;
+        border-style:inset;
+        border-color:green;}
+h3 {
+        width: 200px;
+        padding: 30px 40px 20px;
+        border: 15px solid black;
+        text-align: center;
+        text-size-adjust: 80px;
+        border-color: whitesmoke;
+        }
+p2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        color: purple;}
+body {
+        background-color: lightseagreen;
+}
+p3 {float: top;
+        margin: 0 0 10px 10px;
+        border: 1px solid silver; }
