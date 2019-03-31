@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pierre Sanders-Jackson</title>
+<meta charset="utf-8">
+<style>
+form {background-color: yellowgreen;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      padding: 15px;}
+h1 {border-style: dashed;
+    padding: 20px;
+    border-width: 5px;
+    border-color: red;}
+h2 {border-style:inset;
+    border-width: 5px;
+    border-color: pink}
+</style>
+</head>
+<body>
+
+
+<h1>Music Survey</h1>
+<form action="/action_page.php">
+Name:<br>
+<input type="text" name="firstname">
+<br>
+<h2>Choose your Email</h2><br>
+<label for="email">Email</label>
+<input type="text" name="email" id="email" list="email">
+    <datalist id="email">
+        <option value="SJ111@yahoo.com" label="SJ111@yahoo.com">
+        <option value="pierrejackson27@gmail.com" label="pierrejackson27@gmail.com">
+        <option value="SJ326@twinkle.com" label="SJ326@twinkle.com">       
+    </datalist>
+<br>
+<br>
+Pick your favorite music genre:<br>
+<fieldset>
+<legend>Music Genre:</legend>
+<input type="radio" name="genres" id="favRock" value="Rk"> Rock<br>
+<input type="radio" name="genres" id="favGospel" value="Gp"> Gospel<br>
+<input type="radio" name="genres" id="favHip-Hop" value="Hp-Hp"> Hip-Hop<br>
+</fieldset>
+How many times a day do you listen to music:<br>
+<fieldset>
+    <legend>Listen Occurences:</legend>
+<input type="checkbox" name="Once" id="Once" value="yes"> Once<br>
+<input type="checkbox" name="Over 5 times" id="Over 5 times" value="yes"> Over 5 times<br>
+<input type="checkbox" name="Over 7 times" id="Over 7 times" value="yes"> Over 7 times<br>
+</fieldset>
+Select how you listen to music:<br>
+<select size="3" name="musicoutput" id="musicoutput">
+    <option>Car</option>
+    <option>Phone</option>
+    <option>Home Stereo</option>
+    <option>CD collection</option>
+</select><br>
+<input type="submit"><br> 
+<input type="reset"><br>
+What does music mean to you?:<br>
+<textarea name="comments" id="comments" cols="100" rows="3" maxlength="60" required="required">Enter Comments Here!</textarea>
+<br>
+</form>
+<footer>
+    Contact <strong>Pierre Sanders-Jackson</strong> at: <a href="mailto:pierrejackson27@gmail.com">pierrejackson27@gmail.com</a>
+    </footer>
+</body>
+</html>
