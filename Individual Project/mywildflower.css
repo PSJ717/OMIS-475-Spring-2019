@@ -3,11 +3,11 @@ header, nav, main, footer, aside { display: block; }
 body { margin:0;
        background-color: #ffffff; }
 #container { background-color: #eeeeee;
-             color: #006600;
+             color: pink;
              min-width: 960px;
              font-family: Verdana, Arial, sans-serif; }
-header { background-color: #636631;
-         background-image: url(showybg.jpg);
+header { background-color: lime;
+         background-image: url(IMG_0273.jpg);
          background-position: bottom;
          background-repeat: repeat-x;
          height: 120px;
