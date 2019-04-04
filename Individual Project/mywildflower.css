@@ -11,7 +11,6 @@ header { background-color: lime;
          background-image: url(IMG_0273.jpg);
          background-position: bottom;
          background-repeat: repeat-x;
-         box-shadow: inset 5px 5px 5px black;
          height: 120px;
          color: #cc66cc;
          text-align: right;
@@ -28,7 +27,7 @@ aside { float: right;
         font-size: 30px; }
 main { margin: 0 210px 0 160px;
         padding: 1px 10px 20px 10px;
-        background-color: #ffffff;
+        background-color: blue;
         color: #006600; }
 footer { font-size: .70em;
          text-align: center;
@@ -39,7 +38,8 @@ footer { font-size: .70em;
 h1 { margin-top: 0;
      font-size: 3em;
      text-align: left;
-     text-shadow: 2px 2px 2px #000000; }	 
+     text-shadow: 2px 2px 2px #000000;
+     box-shadow: inset 5px 5px 5px black; }	 
 header a {font-size: 0.80em; }
 header a:link, header a:visited { color: #ffffff; }
 header a:focus, header a:hover { color: #eeeeee; }
