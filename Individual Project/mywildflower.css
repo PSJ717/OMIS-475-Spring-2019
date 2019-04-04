@@ -2,7 +2,7 @@ header, nav, main, footer, aside { display: block; }
 * { box-sizing: border-box;}
 body { margin:0;
        background-color: #ffffff; }
-#container { background-color: #eeeeee;
+#container { background-color:yellow;
              color: pink;
              min-width: 960px;
              font-family: Verdana, Arial, sans-serif;
@@ -11,6 +11,7 @@ header { background-color: lime;
          background-image: url(IMG_0273.jpg);
          background-position: bottom;
          background-repeat: repeat-x;
+         box-shadow: inset 5px 5px 5px black;
          height: 120px;
          color: #cc66cc;
          text-align: right;
