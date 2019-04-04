@@ -8,7 +8,6 @@ body { margin:0;
              font-family: Verdana, Arial, sans-serif;
  }
 header { background-color: lime;
-         background-image: url(IMG_0273.jpg);
          background-position: bottom;
          background-repeat: repeat-x;
          height: 120px;
@@ -19,7 +18,7 @@ header { background-color: lime;
 nav { float: left;
       width: 150px;
         border: 1px solid #000033;
-        border-radius: 5px; }
+        border-radius: 15px; }
 aside { float: right;
         width: 200px;
         font-family: cursive;
