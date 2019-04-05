@@ -3,7 +3,7 @@ header, nav, main, footer, aside { display: block; }
 body { margin:0;
        background-color: #ffffff; }
 #container { background-color:yellow;
-             color: pink;
+             color: black;
              min-width: 960px;
              font-family: Verdana, Arial, sans-serif;
  }
