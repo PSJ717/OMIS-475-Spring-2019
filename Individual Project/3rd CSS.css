@@ -11,3 +11,32 @@ header { background-image: url("NIU Pattern.jpg");
         text-align: right;
         padding: 0 20px;
         border-bottom: 2px solid #000000; }
+nav { float: left;
+    width: 150px;
+      border: 1px solid #000033;
+}
+
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: red;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:silver;
+    color: white;
+  }}
