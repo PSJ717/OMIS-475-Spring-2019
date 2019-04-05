@@ -51,7 +51,7 @@ header, nav, main, footer, aside { display: block; }
     nav a:active { color: #000000;}
     nav img { margin: 30px;}
     main p { margin: 20px; }
-    main h2, main h3 { color: #cc66cc;
+    main h2, main h3 { color: blue;
                        background-color: #ffffff; }
     .floatright { margin: 10px;
                   float: right; }
