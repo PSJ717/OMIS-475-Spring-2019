@@ -1,13 +1,4 @@
-header { background-color: #636631;
-    background-image: url(showybg.jpg);
-    background-position: bottom;
-    background-repeat: repeat-x;
-    height: 120px;
-    color: #cc66cc;
-    text-align: right;
-    padding: 0 20px;
-    border-bottom: 2px solid #000000; }
-    header, nav, main, footer, aside { display: block; }
+header, nav, main, footer, aside { display: block; }
     * { box-sizing: border-box;}
     body { margin:0;
            background-color: #ffffff; }
