@@ -8,7 +8,7 @@ body { margin:0;
              font-family: Verdana, Arial, sans-serif;
  }
 header { background-color: lime;
-         background-position: bottom;
+         background-position: center;
          background-repeat: repeat-x;
          height: 120px;
          color: #cc66cc;
