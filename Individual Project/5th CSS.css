@@ -7,6 +7,10 @@ header { background-image: url("Uline.jpg");
      text-align: right;
      padding: 0 20px;
      border-bottom: 2px solid #000000; }
+nav {
+    color: black;
+    
+}
 body {
     background-image: url("Uline Headquarters.JPG");
 
