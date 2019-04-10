@@ -1,0 +1,18 @@
+header { background-image: url("Uline.jpg");
+    background-color: #838383;
+     background-position: bottom;
+     background-repeat: repeat-x;
+     height: 120px;
+     color: #ffffff;
+     text-align: right;
+     padding: 0 20px;
+     border-bottom: 2px solid #000000; }
+nav {
+    color: black;
+}
+body {
+    background-image: url("Uline Headquarters.JPG");
+
+}
+h2 {color: white;
+        }

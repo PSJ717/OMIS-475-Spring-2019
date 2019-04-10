@@ -1,0 +1,15 @@
+body { margin:0;
+       background-color: #ffffff; }
+#container { background-color:yellow;
+             color: black;
+             min-width: 960px;
+             font-family: Verdana, Arial, sans-serif;
+ }
+header { background-color: lime;
+         background-position: center;
+         background-repeat: repeat-x;
+         height: 120px;
+         color: #cc66cc;
+         text-align: right;
+         padding: 0 20px;
+         border-bottom: 2px solid #000000; }	

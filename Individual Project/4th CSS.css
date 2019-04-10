@@ -1,0 +1,65 @@
+header, nav, main, footer, aside { display: block; }
+    * { box-sizing: border-box;}
+    body { margin:0;
+           background-color: #ffffff; }
+    #container { background-color:yellow;
+                 color: black;
+                 min-width: 960px;
+                 font-family: Verdana, Arial, sans-serif;
+     }
+    header { background-color: lime;
+             background-image: url(Family\ Header.jpg);
+             background-position: center;
+             background-repeat: repeat-x;
+             height: 120px;
+             color: #cc66cc;
+             text-align: right;
+             padding: 0 20px;
+             border-bottom: 2px solid #000000; }		 
+    
+    aside { float: right;
+            width: 200px;
+            font-family: cursive;
+            font-style: italic;
+            font-size: 30px;
+     }
+    main { margin: 0 210px 0 160px;
+            padding: 1px 10px 20px 10px;
+            background-color: blue;
+            color: white; }
+    footer { font-size: .70em;
+             text-align: center;
+             color: #006600;
+             background-color: #ffffff;
+             padding-top: 10px;
+             clear: both; }		 
+    h1 { margin-top: 0;
+         font-size: 3em;
+         text-align: left;
+         text-shadow: 2px 2px 2px #000000;
+         box-shadow: inset 5px 5px 5px black; }	 
+    header a {font-size: 0.80em; }
+    header a:link, header a:visited { color: #ffffff; }
+    header a:focus, header a:hover { color: red; }
+    nav ul { margin-top: 20px;
+             list-style-type: none; }
+    nav a { text-decoration: none;
+            font-size: 1.2em; }
+    nav a:link { color:#006600;}
+    nav a:visited { color: #003300; }
+    nav a:focus, nav a:hover { color: yellow; }
+    nav a:active { color: #000000;}
+    nav img { margin: 30px;}
+    main p { margin: 20px; }
+    main h2, main h4, main h5 { font-size: 1.5;
+                        color: silver;
+                       background-color: black; }
+    .floatright { margin: 10px;
+                  float: right; }
+    aside h3 { padding-bottom: 2px;
+               border-bottom: 1px solid #000000;
+               margin: 10px;
+               font-size: 0.90em;
+               color: #cc66cc; }
+    .news { font-size: 0.80em;
+            margin: 10px; }		
