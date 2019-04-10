@@ -9,9 +9,10 @@ header { background-image: url("Uline.jpg");
      border-bottom: 2px solid #000000; }
 nav {
     color: black;
-    
 }
 body {
     background-image: url("Uline Headquarters.JPG");
 
 }
+h2 {color: white;
+        }

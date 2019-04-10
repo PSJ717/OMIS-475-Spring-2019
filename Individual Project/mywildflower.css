@@ -46,7 +46,7 @@ nav a { text-decoration: none;
         font-size: 1.2em; }
 nav a:link { color:#006600;}
 nav a:visited { color: #003300; }
-nav a:focus, nav a:hover { color: yellow; }
+nav a:focus, nav a:hover { color: red; }
 nav a:active { color: #000000;}
 nav img { margin: 30px;}
 main p { margin: 20px; }

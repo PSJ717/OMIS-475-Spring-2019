@@ -16,7 +16,7 @@ header, nav, main, footer, aside { display: block; }
              text-align: right;
              padding: 0 20px;
              border-bottom: 2px solid #000000; }		 
-    }
+    
     aside { float: right;
             width: 200px;
             font-family: cursive;

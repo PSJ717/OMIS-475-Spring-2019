@@ -26,14 +26,15 @@
     * {
       box-sizing: border-box;
     }
-   h1 {
+    a {
+        color: whitesmoke;
     
    }
     .column {
       float: left;
       width: 25.50%;
       padding: 10px;
-      height: 300px;
+      height: 350px;
     }
     
     
@@ -43,6 +44,43 @@
       clear: both;
     }
     </style>
+    <style>
+        * {
+         box-sizing: border-box;
+        }
+        .menu {
+         float:left;
+         width:20%;
+         text-align:center;
+        }
+        .menu a {
+         background-color:darkred;
+         padding:8px;
+         margin-top:7px;
+         display:block;
+         width:100%;
+         color:black;
+        }
+        .main {
+         float:left;
+         width:60%;
+         padding:0 20px;
+        }
+        .right {
+         background-color:gainsboro;
+         float:left;
+         width:20%;
+         padding:15px;
+         margin-top:7px;
+         text-align:center;
+        }
+        
+        @media only screen and (max-width:620px) {
+         .menu, .main, .right {
+           width:100%;
+         }
+        }
+        </style>
     </head>
     <body>
     <div class="row">
@@ -50,18 +88,21 @@
         <center><h2>Academics</h2></center>
         <p>Here in Academics, there are 3 categories that will give an overview of my time at Northern Illinois University.
             <center><img src="huskies-logo.jpg" width="150" height="125" alt="huskies"></center>
+            <center><a href="Academics.html">Click Here!</a></center>
         </p>
       </div>
       <div class="column" style="background-color:blue;">
         <center><h2>Hobbies</h2></center>
         <p>Here, viewers can see the things that i am very passionate about to pass my free time. I hope that you all can see the love and joy that i express.
             <center><img src="Drums_BBall.jpg" width="150" height="125" alt="My Hobbies!"></center>
+            <center><a href="Hobbies.html">Click Here!</a></center>
         </p>
       </div>
       <div class="column" style="background-color:blue;">
         <center><h2>Family</h2></center>
         <p>Family is one of the most important pieces in my life. Take a step into my home to learn more about our relationships and how we "manage" to put up with each other!
             <center><img src="Family.jpg" width="150" height="105" alt="Family"></center></p>
+            <center><a href="Familia.html">Click Here!</a></center>
       </div>
     </div>
     </body>
