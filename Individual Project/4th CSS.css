@@ -40,7 +40,7 @@ header, nav, main, footer, aside { display: block; }
          box-shadow: inset 5px 5px 5px black; }	 
     header a {font-size: 0.80em; }
     header a:link, header a:visited { color: #ffffff; }
-    header a:focus, header a:hover { color: #eeeeee; }
+    header a:focus, header a:hover { color: red; }
     nav ul { margin-top: 20px;
              list-style-type: none; }
     nav a { text-decoration: none;
